@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tables</title>
+    <style>
+        table{
+            width: 100%;
+            /* border-spacing: 20px; */
+            /* height: 100; */
+            /* margin: 50px; */
+        }
+
+        table,th,td{
+
+            border: 2px solid red;
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+        th,td{
+            /* background-color: rgb(255, 217, 127); */
+            /* border-style: solid; */
+            /* border-style: dashed; */
+            /* border-style: dotted; */
+            /* border-style: double; */
+            border-color: green;
+            /* padding: 5px; */
+            /* margin: 20px; */
+
+        }
+        /* tr:nth-child(odd){
+           background-color: rgb(255, 217, 127);   
+        } */
+         /* .column1{
+            width: 80%;
+        } */
+
+        /* td:nth-child(even){
+            background-color: rgb(255, 217, 127);
+        } */
+
+
+
+        /* .row{
+            height: 100px;
+        }  */
+        
+
+    </style>
+</head>
+<body>
+
+     <table>
+         <caption>Food Habits</caption>
+         <tr>
+            <th class="column1" colspan="1">Eatable itmes
+            </th>
+            <th>Vehetables</th>
+            <th>Chicken</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Onion</td>
+            <td>Butter chicken</td>
+       </tr>
+
+        <tr>
+            <td>Banana</td>
+            <td>Potatao</td>
+            <td rowspan="1">Kadhai chicken</td>
+        </tr>
+
+        <tr>
+            <td>Cherry</td>
+            <td>Tomato</td>
+            <td class="row" >punjabi Chickien</td>        
+        </tr>
+
+        <tr>
+            <td>gauava</td>
+            <td>Cucumber</td>
+            <td>Chicken Biryani</td>        
+        </tr>
+     </table>
+</body>
+</html>
